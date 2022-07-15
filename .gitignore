@@ -1,0 +1,28 @@
+# Ignore
+
+## root folders & dot-files
+/*/
+.*
+
+## logs
+*.logs
+
+# Authorize
+
+## folders
+!/.storybook/
+!/.nyc_output
+!/src/
+!/scripts/
+!/cypress/
+!/coverage
+
+## dot-files
+!/.env
+!/.gitignore
+!/.yarnrc.yml
+!/.editorconfig
+!/.eslintignore
+!/.eslintrc
+!/.prettierrc
+!/cypress/.eslintrc

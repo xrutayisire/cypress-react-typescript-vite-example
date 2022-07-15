@@ -1,0 +1,16 @@
+{
+  "extends": ["../.eslintrc", "plugin:cypress/recommended"],
+  "plugins": ["cypress"],
+  "env": { "cypress/globals": true },
+  "rules": {
+    "import/no-unused-modules": [
+      1,
+      {
+        "unusedExports": true,
+        "missingExports": false,
+        "src": ["./**.**"]
+      }
+    ],
+    "header/header": "off"
+  }
+}

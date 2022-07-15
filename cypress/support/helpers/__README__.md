@@ -1,0 +1,3 @@
+"cypress/support/helpers" folder to store shared helpers functions, like check tableDeleteRowFromName, ...
+
+Remove this README file when you start using this starter example.

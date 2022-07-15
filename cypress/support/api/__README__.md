@@ -1,0 +1,3 @@
+"cypress/support/api" folder to store shared API functions, like authent, get, post...
+
+Remove this README file when you start using this starter example.
